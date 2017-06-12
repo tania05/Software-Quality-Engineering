@@ -44,7 +44,7 @@ public class ACMEPassPaginationTests{
     	nextPageButton.click();
     	
     	Thread.sleep(500);
-    	
+
     	String info = getInfoString();
     	assertEquals("Showing 0 - 0 of 0 items.", info);
     }
